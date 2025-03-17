@@ -2,7 +2,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ template "helm-job.fullname" . }}
+  name: {{ include "common.fullname" . }}
 spec:
   template:
     spec:
@@ -23,7 +23,7 @@ spec:
       containers:
       - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.imagePullPolicy }}
-        name: {{ template "helm-job.fullname" . }}
+        name: {{ include "common.fullname" . }}
         env:
         {{- range concat (.Values.global.environment) (.Values.environment | default list)}}
         - name: {{ .name | quote}}
