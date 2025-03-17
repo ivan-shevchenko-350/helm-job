@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  common:
+  - apiVersion: v1
+    appVersion: 0.0.5
+    created: "2025-03-17T18:41:14.729922+02:00"
+    description: Common chartbuilding components and helpers
+    digest: 269ed3688c2b52e8ca89c87c2e18aafee871f1fd1f06c405570b1fbfef46f303
+    home: https://helm.sh
+    maintainers:
+    - email: technosophos@gmail.com
+      name: technosophos
+    - email: adnan@bitnami.com
+      name: prydonius
+    name: common
+    urls:
+    - https://ivan-shevchenko-350.github.io/helm-job/charts/common/common-0.0.5.tgz
+    version: 0.0.5
+generated: "2025-03-17T18:41:14.729202+02:00"
