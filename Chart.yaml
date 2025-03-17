@@ -17,4 +17,4 @@ maintainers:
 dependencies:
 - name: common
   version: "^0.0.5"
-  repository: "file://../dependency_chart/nginx"
+  repository: "https://ivan-shevchenko-350.github.io/helm-job/charts"
