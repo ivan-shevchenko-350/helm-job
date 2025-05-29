@@ -1,6 +1,5 @@
 {{/* Generate basic labels */}}
-{{- define "chart.label" }}
-  labels:
+{{- define "chart.labels" }}
     app.kubernetes.io/name: {{ include "job.name" . }}
     helm.sh/chart: {{ include "job.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}

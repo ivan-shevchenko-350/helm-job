@@ -3,13 +3,34 @@ entries:
   job:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-29T16:51:22.590535+03:00"
+    created: "2025-05-29T18:30:59.567926+03:00"
     dependencies:
     - name: common
       repository: ""
       version: ^0.0.5
     description: A Helm chart which provide a DRY job deployment mechanism
-    digest: 34988202f7fdd2ca6d88208ec503d83f63191938857bfd388bd60ac385c8c49f
+    digest: 61e9c6c1308fad56d2bb40d02f2ccd52baf329c7ca41c14497570170f5f3aa39
+    keywords:
+    - job
+    - template
+    - DRY
+    - generic
+    maintainers:
+    - name: alexnuttinck
+    - name: terence-bigtt
+    name: job
+    urls:
+    - https://ivan-shevchenko-350.github.io/helm-job/job-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2025-05-29T18:30:59.564856+03:00"
+    dependencies:
+    - name: common
+      repository: ""
+      version: ^0.0.5
+    description: A Helm chart which provide a DRY job deployment mechanism
+    digest: 442f84ba39f117eddc2735fc9e89b2f17702a71e57e04c1eae6cf0b6bee314cd
     keywords:
     - job
     - template
@@ -24,7 +45,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-29T16:51:22.588798+03:00"
+    created: "2025-05-29T18:30:59.561981+03:00"
     dependencies:
     - name: common
       repository: ""
@@ -45,7 +66,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-29T16:51:22.586792+03:00"
+    created: "2025-05-29T18:30:59.560923+03:00"
     dependencies:
     - name: common
       repository: ""
@@ -66,7 +87,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-29T16:51:22.585632+03:00"
+    created: "2025-05-29T18:30:59.560046+03:00"
     dependencies:
     - name: common
       repository: ""
@@ -85,4 +106,4 @@ entries:
     urls:
     - https://ivan-shevchenko-350.github.io/helm-job/job-0.1.2.tgz
     version: 0.1.2
-generated: "2025-05-29T16:51:22.584333+03:00"
+generated: "2025-05-29T18:30:59.559096+03:00"
