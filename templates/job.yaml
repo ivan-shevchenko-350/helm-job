@@ -9,6 +9,7 @@ spec:
   {{- end }}
   template:
     spec:
+      serviceAccountName: {{ .Values.serviceAccountName }}
     {{- if .Values.imagePullSecrets }}
       imagePullSecrets:
       - name: {{ .Values.imagePullSecrets }}

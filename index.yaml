@@ -3,7 +3,28 @@ entries:
   job:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-03-18T01:34:28.015432+02:00"
+    created: "2025-05-29T16:51:22.590535+03:00"
+    dependencies:
+    - name: common
+      repository: ""
+      version: ^0.0.5
+    description: A Helm chart which provide a DRY job deployment mechanism
+    digest: 34988202f7fdd2ca6d88208ec503d83f63191938857bfd388bd60ac385c8c49f
+    keywords:
+    - job
+    - template
+    - DRY
+    - generic
+    maintainers:
+    - name: alexnuttinck
+    - name: terence-bigtt
+    name: job
+    urls:
+    - https://ivan-shevchenko-350.github.io/helm-job/job-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2025-05-29T16:51:22.588798+03:00"
     dependencies:
     - name: common
       repository: ""
@@ -24,7 +45,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-03-18T01:34:28.011097+02:00"
+    created: "2025-05-29T16:51:22.586792+03:00"
     dependencies:
     - name: common
       repository: ""
@@ -45,7 +66,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-03-18T01:34:28.008832+02:00"
+    created: "2025-05-29T16:51:22.585632+03:00"
     dependencies:
     - name: common
       repository: ""
@@ -64,4 +85,4 @@ entries:
     urls:
     - https://ivan-shevchenko-350.github.io/helm-job/job-0.1.2.tgz
     version: 0.1.2
-generated: "2025-03-18T01:34:28.005729+02:00"
+generated: "2025-05-29T16:51:22.584333+03:00"
